@@ -544,45 +544,22 @@
 									<div class="bikram_tm_contact_wrap">
 										<div class="main_input_wrap">
 											
-											<form action="#" method="post" class="contact_form" id="contact_form">
+											<form action="#" method="post" class="contact_form" id="contact_form" data-netlify="true">
 												<div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
 												<div class="empty_notice"><span>Sorry......You've been fooled!!Its a static site......free hosting.........</span></div>
 												<div class="wrap">
-													<input id="name" type="text" placeholder="No need to put data its ">
+													<input id="name" name="name" type="text" placeholder="No need to put data its" >
 												</div>
 												<div class="wrap">
-													<input id="email" type="text" placeholder="Your Email">
+													<input id="email" name="email" type="text" placeholder="Your Email">
 												</div>
 												<div class="wrap">
-													<textarea id="message" placeholder="Your Message"></textarea>
+													<textarea id="message" name="message" placeholder="Your Message"></textarea>
 												</div>
 												<div class="bikram_tm_button">
-													<a id="send_message" href="#"><span>Send Message</span></a>
+													<a id="send_message" href="#" type="submit"><span>Send Message</span></a>
 												</div>
 											</form>
-
-ekhane kisu kaj kora lagbe kalke dekhbo .........foorm ta dynamic kora lagbe.....
-											<form name="contact" method="POST" data-netlify="true class="contact_form" id="contact_form">
-											  <p>
-											    <label>Your Name: <input type="text" name="name" /></label>   
-											  </p>
-											  <p>
-											    <label>Your Email: <input type="email" name="email" /></label>
-											  </p>
-											  <p>
-											    <label>Your Role: <select name="role[]" multiple>
-											      <option value="leader">Leader</option>
-											      <option value="follower">Follower</option>
-											    </select></label>
-											  </p>
-											  <p>
-											    <label>Message: <textarea name="message"></textarea></label>
-											  </p>
-											  <p>
-											    <button type="submit">Send</button>
-											  </p>
-											</form>
-
 										</div>
 									</div>
 								</div>
