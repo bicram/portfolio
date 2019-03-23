@@ -512,7 +512,7 @@ function bikram_tm_animate_text(){
 	var animateSpan			= jQuery('.bikram_tm_animation_text_word');
 	
 		animateSpan.typed({
-			strings: ["Web Developer", "Digital Marketer", "FREELANCER","SEO SERVICE PROVIDER"],
+			strings: ["Web Developer", "Digital Marketer", "FREELANCER","SEO OPTIMIZER"],
 			loop: true,
 			startDelay: 1e3,
 			backDelay: 2e3
