@@ -2620,3 +2620,8 @@ opacity: .8}
 .mycon img.svg:hover{
 	background-color: #E3872D;
 }
+li.icon.mycon {
+    /* text-align: center; */
+    vertical-align: middle;
+    height: 21px;
+}
