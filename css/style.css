@@ -820,7 +820,7 @@ img.svg{
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .bikram_tm_skills_wrap{
-	background-color: #f6f7fd;
+	    background-color: #041230;
 	padding: 90px 0px;
 	margin-bottom: 100px;
 }
@@ -895,24 +895,29 @@ img.svg{
 .bikram_tm_progress span.label{
 	font-size:13px;
 	font-weight:700;
-	color:#000;
+	color:#fff;
 	font-family: "Montserrat";
 }
 .bikram_tm_progress span.label .experience{font-size: 12px;font-weight: 600;}
 .bikram_tm_progress span.number{
 	float:right;
 	font-size:13px;
-	color:#000;
+	color:#fff;
 	font-weight: 700;
 	font-family: "Montserrat";
 }
 .bikram_tm_progress .bikram_tm_bar_bg{
-	background:rgba(0,0,0,.1);
+	/*background:rgba(0,0,0,.1);*/
+	    background: #d44545;
+	    color: #ffff;
 	width:100%;
 	min-width:100%;
 	position:relative;
 	height:20px;
 }
+
+
+
 .bikram_tm_progress .bikram_tm_bar_bg .bikram_tm_bar_wrap{
 	width:0px;
 	height:100%;
@@ -2627,4 +2632,35 @@ li.icon.mycon {
     /* text-align: center; */
     vertical-align: middle;
     height: 21px;
+}
+
+/*my style*/
+
+.bikram_tm_bar{
+	    background-color: rgb(255, 255, 255);
+	    color: white;
+}
+
+.bikram_tm_skills_wrap .inner_wrap .alada{
+    display: flex;
+    color: red;
+}
+ .bikram_tm_mini_title_holder h4 {
+    color: #fff;
+    text-transform: uppercase;
+}
+.leftbox .abilities p {
+   
+    color: #fff;
+}
+
+
+
+.leftbox.abilities p {
+    color: white;
+    /*padding-top: 70px;
+    margin-left: -36px;
+    text-align: left;
+    margin-right: -41px;
+    font-size: 17px;*/
 }
